@@ -15,7 +15,7 @@ use crate::common::{
 use crate::program::Justies;
 use crate::raffle::{Raffle, RaffleTicketPosition, TicketPositionStats};
 
-// Business logic for raffle.
+// business logic for raffle.
 pub struct RaffleStrategy<'accounts, 'info> {
   pub raffle: &'accounts mut Account<'info, Raffle>,
   pub global_states: &'accounts mut Account<'info, GlobalStates>,

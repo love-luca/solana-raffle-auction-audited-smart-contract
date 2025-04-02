@@ -21,7 +21,7 @@ export interface TokenMetadata {
 
 export class DevEnvironment {
   rng: seedrandom.PRNG;
-  // The major here is for setting up non-anchor environments.
+  // The major here is for setting up non-anchor environments
   // The anchor signer is only responsible for interacting with the program being tested.
   majorSigner: Keypair;
   connection: Connection;

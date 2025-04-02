@@ -7,7 +7,6 @@ use anchor_spl::associated_token::AssociatedToken;
 use anchor_spl::token::{Token, TokenAccount};
 
 /// Cancels auction if there are no bids made.
-///
 /// Only the creator can cancel an auction. Once cancelled, the lot NFT will be
 /// transferred back from the escrow to the creator's NFT account, and the
 /// escrow NFT account will be closed & the creator gets the rent refunded.

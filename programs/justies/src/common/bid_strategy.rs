@@ -11,7 +11,7 @@ use anchor_lang::{Key, ToAccountInfo};
 use anchor_spl::token::{Token, TokenAccount};
 use std::cmp;
 
-// Business logic on bidding.
+// Business logic on bidding..
 pub struct BidStrategy<'accounts, 'info> {
   pub bid: &'accounts mut Account<'info, AuctionBid>,
   pub bid_index_info: Option<AccountInfo<'info>>,

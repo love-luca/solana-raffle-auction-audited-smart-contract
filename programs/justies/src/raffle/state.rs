@@ -21,7 +21,7 @@ pub struct Raffle {
   // Check the doc string of Auction.
   pub revenue_shares: Vec<RevenueShareConfig>,
   pub status: ListingStatus,
-  // The winner ids (by default each winner can only win 1 nft).
+  // The winner ids (by default each winner can only win 1 nft)
   pub winner_ids: Vec<u16>,
   pub claim_mask: u64,
 }

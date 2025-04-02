@@ -4,7 +4,7 @@ use anchor_lang::prelude::*;
 
 /// The input type for the UpdateConfigs instruction.
 ///
-/// All fields are optional so that only non-empty values are updated at the
+/// All fields are optional so that only non-empty values are updated at
 /// global_states account.
 #[derive(AnchorSerialize, AnchorDeserialize, Default, Clone, PartialEq)]
 pub struct UpdateConfigsInput {

@@ -4,7 +4,6 @@ use crate::raffle::{Raffle, TicketPositionStats};
 use anchor_lang::prelude::*;
 
 /// Makes raffle to pick winners.
-///
 /// The "rerun" flag is for testing purpose. It can only be true when
 /// global_states.is_test_environment == true. When being true, the raffle
 /// algorithm will be rerun. This is useful for testing the raffle algorithm.

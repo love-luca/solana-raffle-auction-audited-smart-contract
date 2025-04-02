@@ -4,7 +4,6 @@ use crate::raffle::Raffle;
 use anchor_lang::prelude::*;
 
 /// Sets raffle winners (testing-only).
-///
 /// Only callable by the authority when global_states.is_test_environment is
 /// true. This is for setting up deterministic winners for testing purpose.
 #[derive(Accounts)]

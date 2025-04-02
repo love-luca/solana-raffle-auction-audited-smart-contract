@@ -13,7 +13,7 @@ export type RevenueShareConfig = IdlTypes<Justies>["RevenueShareConfig"];
 export type EligibilityCheckInput = IdlTypes<Justies>["EligibilityCheckInput"];
 export type UpdateConfigsInput = IdlTypes<Justies>["UpdateConfigsInput"];
 
-// A client interacts with the justies program.
+// A client interacts with the justies program
 export class JustiesProgramClient {
   connection: Connection;
   programId: PublicKey;

@@ -18,7 +18,7 @@ pub fn transfer_token<'accounts, 'info>(
   signer_seed: Option<&[&[u8]]>,
 ) -> Result<()> {
   if amount == 0 {
-    return Ok(());
+    return Ok(());;
   }
 
   let seeds = if signer_seed == None {

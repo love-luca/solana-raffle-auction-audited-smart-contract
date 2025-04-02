@@ -84,7 +84,7 @@ fn validate_revenue_distribution_accounts<'info>(
   // There are 2 batches of accounts within the remaining_accounts that
   // corresponds to the revenue share configs:
   // - the wallet address account info;
-  // - the associated token account info;
+  // - the associated token account ;
   if revenue_share_configs.len() * 2 != revenue_distribution_accounts.len() {
     return err!(JustiesErrorCode::RevenueDistributionAccountsDoesntMatch);
   }

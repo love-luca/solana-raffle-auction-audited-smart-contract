@@ -57,7 +57,7 @@ pub struct AuctionBid {
   pub initialized: bool,
   pub auction: Pubkey,
   pub bidder: Pubkey,
-  // The bid amount could be 0 when it is cancelled.
+  // The bid amount could be 0 when it is cancelled
   pub bid: u64,
   pub latest_change_timestamp: i64,
 }

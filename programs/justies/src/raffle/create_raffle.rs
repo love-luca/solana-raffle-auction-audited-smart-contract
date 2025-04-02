@@ -11,7 +11,6 @@ use anchor_spl::metadata::MetadataAccount;
 use anchor_spl::token::{Mint, Token, TokenAccount};
 
 /// Creates new raffle.
-///
 /// The creator needs to specify key parameters of the raffle (duration, ticket
 /// supply, ticket price, number of raffled nfts, revenue recipients, NFT token,
 /// currency token, eligible groups config, etc). Once created, the NFT tokens

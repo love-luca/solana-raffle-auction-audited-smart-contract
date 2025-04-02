@@ -9,7 +9,6 @@ use anchor_lang::prelude::*;
 use anchor_spl::token::{Mint, Token, TokenAccount};
 
 /// Makes bid to an auction.
-///
 /// The user need to specify a bid amount and maximum allowed bid amount to
 /// allow some slippages. The actual bid amount is calculated as
 /// "max(bid_amount, minimum_eligible_outbid_amount)", which should not exceed

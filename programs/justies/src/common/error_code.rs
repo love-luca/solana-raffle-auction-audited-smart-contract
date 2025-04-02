@@ -102,7 +102,7 @@ pub enum JustiesErrorCode {
   InvalidBidAccount = 50,
   #[msg("the lot escrow nft account contains inconsistent states")]
   InconsistentLotEscrowNftAccount = 51,
-  #[msg("the specified nft mint account is invalid")]
+  #[msg("the specified nft mint account is invalid.")]
   InvalidNftMint = 52,
   #[msg("invalid auction duration")]
   InvalidAuctionDuration = 53,

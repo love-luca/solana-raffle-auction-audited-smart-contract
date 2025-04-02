@@ -9,7 +9,6 @@ use anchor_spl::associated_token::AssociatedToken;
 use anchor_spl::token::{Mint, Token, TokenAccount};
 
 /// Claims the auction revenue.
-///
 /// Only callable by the auction creator upon finish. All the tokens within the
 /// top bidder's bid escrow token account will be considered as the revenue, and
 /// be distributed between the Justies fee treasury and all the specified

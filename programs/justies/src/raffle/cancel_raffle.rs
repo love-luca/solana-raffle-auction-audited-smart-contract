@@ -11,7 +11,7 @@ use anchor_spl::token::{Token, TokenAccount};
 /// Only callable by the raffle creator. Once cancelled, all the raffle rewards
 /// will be refunded to the creator. The raffle rewards escrow NFT account will
 /// also be closed with the rents refunded to the creator.
-///
+
 /// Please note that the only pre-requisite required cancellation is that there
 /// are no raffle ticket sold, no matter of the raffle status.
 ///

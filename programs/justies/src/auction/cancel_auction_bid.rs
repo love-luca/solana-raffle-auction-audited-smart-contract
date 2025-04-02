@@ -6,7 +6,6 @@ use anchor_spl::associated_token::AssociatedToken;
 use anchor_spl::token::{Mint, Token, TokenAccount};
 
 /// Cancels the auction bid.
-///
 /// Only callable by non-top-bidder. The bid funds will be refunded from the bid
 /// escrow token account to the bidder's token account. The bid escrow token
 /// account will be closed with the rents refunded to the bidder.

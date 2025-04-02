@@ -23,7 +23,6 @@ pub struct AddCurrencyTokenToAllowList<'info> {
       bump,
   )]
   pub token_allowlist_states: Account<'info, TokenAllowlistStates>,
-  /// CHECK: checked by the constraints.
   #[account(
       mut,
       seeds = [

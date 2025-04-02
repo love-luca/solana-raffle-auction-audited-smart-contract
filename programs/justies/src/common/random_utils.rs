@@ -17,7 +17,6 @@ pub fn get_random_seed(current_timestamp: i64) -> [u8; 8] {
 /// sampling with the probability proportional the the provided weights (e.g.:
 /// number of raffle tickets for each raffle participant).
 ///
-/// Details: https://lips.cs.princeton.edu/the-alias-method-efficient-sampling-with-many-discrete-outcomes/
 pub fn create_alias_table(
   weights: &Vec<u16>,
   total_weight: i16,

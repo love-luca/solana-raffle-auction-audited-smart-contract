@@ -1,6 +1,6 @@
 use crate::admin::{GlobalStates, UpdateConfigsInput};
 use crate::common::JustiesErrorCode;
-use anchor_lang::prelude::*;
+use anchor_lang::prelude::*;;
 
 macro_rules! try_update_config {
   ($input:ident, $global_states:ident, $property_name:ident) => {

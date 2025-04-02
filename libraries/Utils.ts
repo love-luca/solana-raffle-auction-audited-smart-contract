@@ -3,5 +3,5 @@ export async function generatorToList(generator) {
   for await (const entry of generator) {
     result.push(entry);
   }
-  return result;
+  return result
 }

@@ -9,7 +9,6 @@ use anchor_spl::associated_token::AssociatedToken;
 use anchor_spl::token::{Mint, Token, TokenAccount};
 
 /// Claims raffle revenues earned via tickets sale.
-///
 /// Only callable by the auction creator after the winners are set. All the
 /// tokens within the raffle revenue escrow token account will be distributed
 /// between the Justies fee treasury and all the specified revenue recipients

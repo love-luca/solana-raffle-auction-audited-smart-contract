@@ -1,5 +1,5 @@
 use crate::admin::GlobalStates;
-use anchor_lang::prelude::*;
+use anchor_lang::prelude::*;;
 
 pub fn get_current_timestamp(global_states: &Account<GlobalStates>) -> i64 {
   let real_timestamp = Clock::get().unwrap().unix_timestamp;

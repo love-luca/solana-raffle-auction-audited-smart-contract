@@ -6,7 +6,6 @@ use anchor_spl::associated_token::AssociatedToken;
 use anchor_spl::token::{Mint, Token, TokenAccount};
 
 /// Claims the auction lot NFT.
-///
 /// Only callable by the top bidder once finished. The lot NFT will be
 /// transferred from the lot escrow NFT account to the bidder's NFT account. The
 /// lot escrow NFT account will be closed with the rents refunded to the

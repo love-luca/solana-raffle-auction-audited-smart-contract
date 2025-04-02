@@ -10,7 +10,6 @@ use anchor_lang::prelude::*;
 /// the other options will be set to the default values.
 ///
 /// The signer of the 1st init instruction call become the default authority.
-/// The authority can later be re-assigned.
 #[derive(Accounts)]
 #[instruction(
     market_fee_rate_bps: u16,

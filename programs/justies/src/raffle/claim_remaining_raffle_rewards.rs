@@ -6,7 +6,6 @@ use anchor_spl::associated_token::AssociatedToken;
 use anchor_spl::token::{Token, TokenAccount};
 
 /// Claims the remaining raffle rewards.
-///
 /// Only callable by the creator when there are less winners than the raffled
 /// NFTs. All the remaining NFTs will be transferred back to the creator's NFT
 /// token account from the rewards escrow NFT token account. If the rewards

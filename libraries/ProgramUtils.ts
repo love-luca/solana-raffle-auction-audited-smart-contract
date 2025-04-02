@@ -15,7 +15,7 @@ export function findPda(programId: PublicKey, ...args: any[]): PublicKey {
     } else if (typeof arg === "string") {
       seeds.push(anchor.utils.bytes.utf8.encode(arg));
     } else if (typeof arg === "number") {
-      // Only 4-bytes int are supported here.
+      // Only 4-bytes int are supported here
       const value = new anchor.BN(arg);
       seeds.push(value.toBuffer("le", 4));
     } else {

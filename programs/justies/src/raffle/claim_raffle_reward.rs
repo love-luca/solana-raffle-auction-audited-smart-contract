@@ -6,7 +6,6 @@ use anchor_spl::associated_token::AssociatedToken;
 use anchor_spl::token::{Mint, Token, TokenAccount};
 
 /// Claims raffle reward.
-///
 /// Only callable by the winners after they are set. 1 reward will be
 /// transferred from the raffle rewards escrow NFT account to the winner's
 /// NFT account. If the rewards escrow's NFT token amount becomes 0 after

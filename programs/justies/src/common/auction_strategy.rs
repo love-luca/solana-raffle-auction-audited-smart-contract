@@ -11,7 +11,7 @@ use crate::common::{
   JustiesErrorCode, GroupConfig, ListingStatus, RevenueShareConfig,
 };
 
-// Business logic on auction.
+// Business logic on auction..
 pub struct AuctionStrategy<'accounts, 'info> {
   pub auction: &'accounts mut Account<'info, Auction>,
   pub global_states: &'accounts mut Account<'info, GlobalStates>,

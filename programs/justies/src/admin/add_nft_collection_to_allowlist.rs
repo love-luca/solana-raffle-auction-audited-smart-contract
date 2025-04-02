@@ -11,7 +11,6 @@ use anchor_spl::token::Mint;
 /// The allowlist states can be looked up via collection mint address, or
 /// iterated via the nft_allowlist_index pda.
 ///
-/// Only callable by the authority.
 #[derive(Accounts)]
 #[instruction(collection_mint_address: Pubkey)]
 pub struct AddNftCollectionToAllowList<'info> {

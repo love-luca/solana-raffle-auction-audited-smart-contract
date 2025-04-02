@@ -10,7 +10,7 @@ use anchor_spl::token::{Mint, Token, TokenAccount};
 
 /// Buys tickets for raffle entries (1 ticket = 1 entry).
 ///
-/// The user needs pay num_tickets * ticket_price in the raffle's currency
+/// The user needs pay num_tickets * ticket_price in the raffles currency
 /// token. The payment goes into the raffle revenue escrow token account.
 ///
 /// The user's ticket position can be looked up by raffle address and

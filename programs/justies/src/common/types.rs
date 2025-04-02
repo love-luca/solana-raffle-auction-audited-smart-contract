@@ -4,7 +4,7 @@ use anchor_spl::token::TokenAccount;
 // This is a generic account states for indexing & iterating public keys.
 // This is super useful for the use case of iteration PDAs by total number and
 // indexes. The benefit of the indexing page is to not introduce too many PDA
-// conflicts during traffic peak.
+// conflicts during traffic peak..
 #[account]
 #[derive(Default)]
 pub struct PubkeyIndexPage {

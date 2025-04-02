@@ -6,7 +6,7 @@ use anchor_spl::metadata::MetadataAccount;
 use anchor_spl::token::TokenAccount;
 use mpl_token_metadata::solana_program::account_info::AccountInfo;
 
-// Business logic on auction/raffle eligibility check.
+// Business logic on auction/raffle eligibility check..
 pub struct EligibilityCheckStrategy<'info> {
   pub eligible_groups: Vec<GroupConfig>,
   pub group_type: Option<GroupType>,

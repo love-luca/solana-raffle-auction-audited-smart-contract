@@ -21,4 +21,4 @@ pub use error_code::*;
 pub mod configs_strategy;
 pub use configs_strategy::*;
 pub mod pubkey_indexing;
-pub use pubkey_indexing::*;
+pub use pubkey_indexing::*;;

@@ -11,7 +11,7 @@ use anchor_lang::prelude::*;
 /// tolerance to PDA conflicts for the high-concurrency use case (such as:
 /// last minutes bidding).
 ///
-/// The indexing process is fully dynamically as the Anchor's macro annotations
+/// The indexing process is fully dynamically as the Anchor's macro annotation
 /// are not flexible enough to support the use case.
 pub fn index_pubkey<'info>(
   key: Pubkey,

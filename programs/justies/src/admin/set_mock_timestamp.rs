@@ -5,7 +5,6 @@ use anchor_lang::prelude::*;
 /// Sets mock timestamp.
 ///
 /// This is only callable when is_test_environment == true.
-///
 /// The reason to add this is that it is necessary to forward the timestamp to
 /// testing time-related smart contract behaviors. However solana test validator
 /// doesn't provide a feasible way to mock the timestamp. It is a walk around to

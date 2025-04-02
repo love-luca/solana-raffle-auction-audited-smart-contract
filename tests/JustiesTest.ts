@@ -125,8 +125,8 @@ describe("Justies Test", () => {
 
     before(async () => {
       justiesClient = devEnv.justiesClient("authority");
-      // isTestEnvironment is true here as we need to mock the timestamp for
-      // testing.
+      // isTestEnvironment is true here as we need to mock the timestamp for testing
+      
       await justiesClient.initProgram(200, feeTreasuryAddress, true);
       const updateConfigInput = JustiesProgramClient.getDefaultUpdateConfigsInput();
       // Set a smaller indexing page size to increase test coverage (e.g.: to

@@ -60,7 +60,7 @@ pub struct GlobalStates {
   pub num_keys_per_index_page: u16,
   // This is a special flag to support test-specific features such as: system
   // clock mocking.
-  // !!!!!!!!!!!! This should never be true in the main network !!!!!!!!!
+  // !!!!!!!!!!!! This should never be true in the main network !!!!!!!!
   pub is_test_environment: bool,
   // This can be set in the test only when "is_test_environment" is true.
   pub mock_timestamp: Option<i64>,

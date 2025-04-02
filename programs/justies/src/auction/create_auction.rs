@@ -10,7 +10,6 @@ use anchor_spl::metadata::MetadataAccount;
 use anchor_spl::token::{Mint, Token, TokenAccount};
 
 /// Creates auction.
-///
 /// The creator needs to specify key parameters of the auction (duration, start
 /// bid, revenue recipients, NFT token, currency token, eligible groups config,
 /// etc). Once created, the NFT token will be transferred from the creator's NFT
